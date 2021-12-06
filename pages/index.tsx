@@ -11,6 +11,7 @@ import dynamic from "next/dynamic";
 import { artistContext } from "./_app";
 const OwlCarousel = dynamic(import("react-owl-carousel"), { ssr: false });
 
+
 export default function Home({ artsHot, artsFeatured, bxmiPrice }) {
   const context = useContext(artistContext);
   console.log("context" ,context)
