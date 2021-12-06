@@ -1,0 +1,2 @@
+# artSea
+The NFT marketplace
